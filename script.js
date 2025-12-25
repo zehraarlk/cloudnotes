@@ -9,7 +9,7 @@ const noteList = document.getElementById("noteList");
 quoteBtn.addEventListener("click", () => {
     fetch("https://quotes.rest/qod", {
         headers: {
-            "X-TheySaidSo-Api-Secret": "demo"
+            "X-Api-Key: 5Ff9ZkXw4Y8Lh9DemoKey123"
         }
     })
     .then(res => res.json())
